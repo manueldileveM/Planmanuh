@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/planmanuh/static/css/main.6636a620.css",
-    "main.js": "/planmanuh/static/js/main.dc85a07d.js",
-    "static/js/453.7e069098.chunk.js": "/planmanuh/static/js/453.7e069098.chunk.js",
-    "static/media/SfondoLegno.jpeg": "/planmanuh/static/media/SfondoLegno.a559907263a720d8b631.jpeg",
-    "static/media/SfondoFooter.png": "/planmanuh/static/media/SfondoFooter.b983a4e4a261a41df721.png",
-    "static/media/manga2.jpg": "/planmanuh/static/media/manga2.d95539e4af2c9fe7c961.jpg",
-    "static/media/SfondoBody1.jpg": "/planmanuh/static/media/SfondoBody1.f791f2131aa81136f23b.jpg",
-    "index.html": "/planmanuh/index.html",
-    "main.6636a620.css.map": "/planmanuh/static/css/main.6636a620.css.map",
-    "main.dc85a07d.js.map": "/planmanuh/static/js/main.dc85a07d.js.map",
-    "453.7e069098.chunk.js.map": "/planmanuh/static/js/453.7e069098.chunk.js.map"
+    "main.css": "/Planmanuh/static/css/main.b6ef1de2.css",
+    "main.js": "/Planmanuh/static/js/main.d4b659ed.js",
+    "static/js/453.7e069098.chunk.js": "/Planmanuh/static/js/453.7e069098.chunk.js",
+    "static/media/SfondoLegno.jpeg": "/Planmanuh/static/media/SfondoLegno.a559907263a720d8b631.jpeg",
+    "static/media/SfondoFooter.png": "/Planmanuh/static/media/SfondoFooter.b983a4e4a261a41df721.png",
+    "static/media/manga2.jpg": "/Planmanuh/static/media/manga2.d95539e4af2c9fe7c961.jpg",
+    "static/media/SfondoBody1.jpg": "/Planmanuh/static/media/SfondoBody1.f791f2131aa81136f23b.jpg",
+    "index.html": "/Planmanuh/index.html",
+    "main.b6ef1de2.css.map": "/Planmanuh/static/css/main.b6ef1de2.css.map",
+    "main.d4b659ed.js.map": "/Planmanuh/static/js/main.d4b659ed.js.map",
+    "453.7e069098.chunk.js.map": "/Planmanuh/static/js/453.7e069098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6636a620.css",
-    "static/js/main.dc85a07d.js"
+    "static/css/main.b6ef1de2.css",
+    "static/js/main.d4b659ed.js"
   ]
 }
