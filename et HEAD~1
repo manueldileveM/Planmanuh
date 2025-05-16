@@ -1,0 +1,35 @@
+[33mcommit 6bfb26a18dd62663286e4868567401f672a1c260[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfix-push[m[33m, [m[1;32mfeature/stripe-integration[m[33m)[m
+Author: Manuel Di Leve <manueldilevem@gmail.com>
+Date:   Fri May 16 12:04:45 2025 +0200
+
+    modifiche
+
+[1mdiff --git a/public/favico1n.ico b/public/favico1n.ico[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a11777c[m
+Binary files /dev/null and b/public/favico1n.ico differ
+[1mdiff --git a/public/favicon.ico b/public/favicon.ico[m
+[1mindex a11777c..49961f8 100644[m
+Binary files a/public/favicon.ico and b/public/favicon.ico differ
+[1mdiff --git a/public/index.html b/public/index.html[m
+[1mindex ce2af32..4f4aa31 100644[m
+[1m--- a/public/index.html[m
+[1m+++ b/public/index.html[m
+[36m@@ -2,7 +2,7 @@[m
+ <html lang="en">[m
+   <head>[m
+     <meta charset="utf-8" />[m
+[31m-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />[m
+[32m+[m[32m    <link rel="icon" href="%PUBLIC_URL%/favicon.ico?v=2" />[m
+     <meta name="viewport" content="width=device-width, initial-scale=1" />[m
+     <meta name="theme-color" content="#000000" />[m
+     <meta[m
+[36m@@ -26,7 +26,7 @@[m
+       work correctly both with client-side routing and a non-root public URL.[m
+       Learn how to configure a non-root public URL by running `npm run build`.[m
+     -->[m
+[31m-    <title>React App</title> <!--slmi-uoav-ehsp-rllb-xwcy  CODICE SICUREZZA STRIPE!!!!!-->[m
+[32m+[m[32m    <title>Planmanuh</title> <!--slmi-uoav-ehsp-rllb-xwcy  CODICE SICUREZZA STRIPE!!!!!-->[m
+   </head>[m
+   <body>[m
+     <noscript>You need to enable JavaScript to run this app.</noscript>[m
