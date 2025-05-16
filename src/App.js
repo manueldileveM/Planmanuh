@@ -7,15 +7,17 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import Footer from "./components/Footer";
 import "./App.css";
+import Cart from "./components/Cart";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/Planmanuh">
       <NavBar />
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/shop" element={<ShopPage />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>

@@ -6,7 +6,12 @@
 }
 
 body {
-  background-color: #4b4944;
+  /*background-color: #E4CBA7;*/
+  background-image: url('./assest/SfondoBody1.jpg');
+  background-size: 100% 98%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   color: #333;
 }
 
@@ -16,7 +21,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
-  background-color: #a3a39e;
+  background-color: #F5F5DC;
   border-bottom: 1px solid #eee;
 }
 
@@ -49,17 +54,25 @@ body {
 /* HOMEPAGE */
 .homepage {
   padding: 4rem 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .homepage h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
+  text-align: left;
+  font-family: 'Parisienne' , cursive;
+}
+
+.homepage h2 {
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 .homepage p {
   font-size: 1.2rem;
   color: #666;
+  text-align: left;
 }
 
 /* PRODUCT CARD */
@@ -87,7 +100,12 @@ body {
 
 /* FOOTER */
 .footer {
-  background-color: #f9f9f9;
+  /*background-color: #967e48;*/
+  background-image: url('./assest/SfondoFooter.png');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   padding: 2rem;
   text-align: center;
   font-size: 0.9rem;
@@ -142,7 +160,7 @@ body {
 .box {
   background-color: #fff;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   min-height: 500px;
   padding: 2rem;
   border-radius: 20px;
@@ -154,10 +172,19 @@ body {
   transition: all 0.3s ease;
   cursor: pointer;
   border: 2px solid transparent;
+   /* 👇 Aggiunta per immagine di sfondo */
+  background-image: url('./assest/SfondoLegno.jpeg');
+  background-size: 115% 115%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none; /*ora il testo NON è sottolineato*/
 }
 
+
 .box:hover {
-  border: 2px solid #00aaff;       /* bordo azzurro */
+  border: 2px solid #fffb00;       /* bordo azzurro */
   transform: scale(1.05);           /* ingrandimento */
   box-shadow: 0 4px 12px rgba(0, 170, 255, 0.2);
 }
@@ -185,12 +212,13 @@ body {
 .box-text h3 {
   margin: 0 0 1rem;
   font-size: 1.8rem;
+  color: #eee;
 }
 
 .box-text p {
   margin: 0;
   font-size: 1rem;
-  color: #555;
+  color: #eee;
 }
 
 /*PER MOBILE*/
@@ -208,3 +236,23 @@ body {
     padding: 0;
   }
 }
+
+/*.box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('./assest/SfondoLegno.jpeg'); /* o assets, se hai rinominato 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  border-radius: 20px;
+}
+
+/* ✅ Per contenuti sopra lo sfondo 
+.box-content {
+  position: relative;
+  z-index: 1;
+}*/
+
+
