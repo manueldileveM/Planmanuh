@@ -1,38 +1,258 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  /*background-color: #E4CBA7;*/
+  background-image: url('./assest/SfondoBody1.jpg');
+  background-size: 100% 98%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #F5F5DC;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  /*font-weight: bold;*/
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+.navbar-links a:hover {
+  background-color: rgb(81, 90, 90);
+  color: #eee;
+  border-radius: 8px;
+}
+
+/* HOMEPAGE */
+.homepage {
+  padding: 4rem 2rem;
+  text-align: left;
+}
+
+.homepage h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-family: 'Parisienne' , cursive;
+}
+
+.homepage h2 {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.homepage p {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: left;
+}
+
+/* PRODUCT CARD */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 1rem;
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+}
+
+/* FOOTER */
+.footer {
+  /*background-color: #967e48;*/
+  background-image: url('./assest/SfondoFooter.png');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+/* Altri componenti come CallToAction, ContactPage, ecc. seguono qui */
+/* PAGINE */
+.homepage, .shop-page, .about-page, .contact-page {
+  padding: 3rem 2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cta-button {
+  background-color: #00b279;         /* Verde brillante */
+  color: #ffffff;                    /* Testo bianco */
+  padding: 0.9rem 2.5rem;            /* Più grande della scritta */
+  border: none;
+  border-radius: 999px;              /* Super arrotondato */
+  font-size: 1rem;
+  font-weight: 600;
+  /*font-family: 'Poppins', sans-serif;  GIA UTILIZZATO CON ->*/
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cta-button:hover {
+  background-color: #009f6e;         /* Verde leggermente più scuro */
+  transform: scale(1.05);            /* Leggero zoom al passaggio */
+}
+
+/*SEZIONE BOX HOMEPAGE*/
+.box-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  /*flex-wrap: wrap; CON COLUMN NON SERVE,*/
 }
 
-.App-link {
-  color: #61dafb;
+.box {
+  background-color: #fff;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 500px;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+   /* 👇 Aggiunta per immagine di sfondo */
+  background-image: url('./assest/SfondoLegno.jpeg');
+  background-size: 115% 115%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none; /*ora il testo NON è sottolineato*/
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.box:hover {
+  border: 2px solid #fffb00;       /* bordo azzurro */
+  transform: scale(1.05);           /* ingrandimento */
+  box-shadow: 0 4px 12px rgba(0, 170, 255, 0.2);
+}
+
+/*INIZIO MODIFICHE SERIE PER BOX CON IMG*/
+.box-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 2rem;
+}
+
+.box img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.box-text {
+  flex: 1;
+  padding: 1rem;
+}
+
+.box-text h3 {
+  margin: 0 0 1rem;
+  font-size: 1.8rem;
+  color: #eee;
+}
+
+.box-text p {
+  margin: 0;
+  font-size: 1rem;
+  color: #eee;
+}
+
+/*PER MOBILE*/
+@media (max-width: 768px) {
+  .box-content {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .box img {
+    width: 100%;
+    height: auto;
+  }
+
+  .box-text {
+    padding: 0;
   }
 }
+
+/*.box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('./assest/SfondoLegno.jpeg'); /* o assets, se hai rinominato 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  border-radius: 20px;
+}
+
+/* ✅ Per contenuti sopra lo sfondo 
+.box-content {
+  position: relative;
+  z-index: 1;
+}*/
+
+
