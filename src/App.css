@@ -173,7 +173,7 @@ body {
   cursor: pointer;
   border: 2px solid transparent;
    /* 👇 Aggiunta per immagine di sfondo */
-  background-image: url('./assest/SfondoLegno.jpeg');
+  background-image: url('./assest/SfondoLegno1.png');
   background-size: 115% 115%;
   background-position: center;
   background-repeat: no-repeat;

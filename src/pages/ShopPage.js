@@ -1,13 +1,19 @@
 import React from "react";
 import ProductCard from "../components/ProductCard";
-// import productImg from "../assets/planner-demo.jpg"; // scommenta se hai l’immagine
+import DigitalGrey from "../assest/DigitalGrey.png"; // scommenta se hai l’immagine
 
 const ShopPage = () => {
   const products = [
     {
-      title: "Planner Settimanale",
-      price: "9.99",
+      title: "Minimal Digital Planner - Grey version",
+      price: "0.79",
       priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // sostituisci con il tuo ID reale
+      image: DigitalGrey,
+    },
+    {
+      title: "Planner Mensile",
+      price: "12.99",
+      priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
       // image: productImg,
     },
     {
