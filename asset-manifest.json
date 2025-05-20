@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Planmanuh/static/css/main.19e97dbb.css",
+    "main.css": "/Planmanuh/static/css/main.0ce865be.css",
     "main.js": "/Planmanuh/static/js/main.eccb5714.js",
     "static/js/453.7e069098.chunk.js": "/Planmanuh/static/js/453.7e069098.chunk.js",
     "static/media/SfondoLegno1.png": "/Planmanuh/static/media/SfondoLegno1.a7e4c031507a2d19bf34.png",
@@ -9,12 +9,12 @@
     "static/media/SfondoBody1.jpg": "/Planmanuh/static/media/SfondoBody1.f791f2131aa81136f23b.jpg",
     "static/media/DigitalGrey.png": "/Planmanuh/static/media/DigitalGrey.c3b5189b2c2a618a7808.png",
     "index.html": "/Planmanuh/index.html",
-    "main.19e97dbb.css.map": "/Planmanuh/static/css/main.19e97dbb.css.map",
+    "main.0ce865be.css.map": "/Planmanuh/static/css/main.0ce865be.css.map",
     "main.eccb5714.js.map": "/Planmanuh/static/js/main.eccb5714.js.map",
     "453.7e069098.chunk.js.map": "/Planmanuh/static/js/453.7e069098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19e97dbb.css",
+    "static/css/main.0ce865be.css",
     "static/js/main.eccb5714.js"
   ]
 }
