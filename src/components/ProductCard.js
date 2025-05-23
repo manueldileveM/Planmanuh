@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ProductCard = ({ title, image, price, priceId }) => {
+const ProductCard = ({ title, image, price, priceId , index }) => {
+  let linkPath = "/cart";
+  if (index === 1) linkPath = "/cart-due";
+  if (index === 2) linkPath = "/cart-tre";
+
   return (
     <div
       className="product-card"
@@ -27,8 +31,9 @@ const ProductCard = ({ title, image, price, priceId }) => {
       <p style={{ marginBottom: "1rem" }}>{price} €</p>
 
       {/* Link alla pagina Cart passando i dati del prodotto */}
-      <Link
-        to="/cart"
+
+       <Link
+        to={linkPath}
         state={{ title, price, priceId, image }}
         style={{ textDecoration: "none" }}
       >
@@ -46,6 +51,7 @@ const ProductCard = ({ title, image, price, priceId }) => {
           Acquista
         </button>
       </Link>
+      
     </div>
   );
 };

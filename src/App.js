@@ -8,6 +8,8 @@ import ContactPage from "./pages/ContactPage";
 import Footer from "./components/Footer";
 import "./App.css";
 import Cart from "./components/Cart";
+import CartDue from "./components/CartDue";
+import CartTre from "./components/CartTre";
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
           <Route path="/cart" element={<Cart />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/cart-due" element={<CartDue />} />
+          <Route path="/cart-tre" element={<CartTre />} />
         </Routes>
       </main>
       <Footer />

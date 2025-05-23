@@ -1,5 +1,8 @@
 import React from "react";
 import DigitalGrey from "../assest/DigitalGrey.png"
+import DigitalBlue from "../assest/DigitalBlue.png"
+import DigitalGreen from "../assest/DigitalGreen.png"
+//import { image } from "framer-motion/client";
 //import { image } from "framer-motion/client";
 
 const products = [
@@ -10,14 +13,16 @@ const products = [
     image: DigitalGrey, // Sostituisci con il tuo priceId reale
   },
   {
-    title: "Planner Mensile",
-    price: "12.99",
+    title: "Minimal Digital Planner - Blue Version ",
+    price: "0.89",
     priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+    image: DigitalBlue,
   },
   {
-    title: "Planner Obiettivi",
-    price: "14.99",
+    title: "Minimal Digital Planner - Green Version",
+    price: "0.89",
     priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+    image: DigitalGreen,
   },
   {
     title: "Planner Obiettivi",

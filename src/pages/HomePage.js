@@ -16,8 +16,8 @@ const HomePage = () => {
         <div className="box-content">
         <img src={manga2} alt="manga"/>
         <div className="box-text">
-          <h3>esempio di come dovrebbe uscire</h3>
-          <p>da completare i due box sotto, scrivere esattamente quello che sta scritto in questo box, senza cambiare i vari nomi dei div ecc. Tanto in app.css stanno già i codici scritti, l'unica cosa da fare è importare altre immagini</p>
+          <h3>Scopri i nostri Planner digitali!</h3>
+          <p>Organizza la tua vita con stile! Scegli tra planner minimal, mensili e colorati pensati per aiutarti a pianificare al meglio ogni giorno. Perfetti per tablet e dispositivi digitali, pronti per il download immediato.</p>
         </div>
         </div>
         </Link>

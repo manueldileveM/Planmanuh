@@ -1,14 +1,15 @@
 import React from "react";
 import ProductCard from "../components/ProductCard";
-import DigitalGrey from "../assest/DigitalGrey.png"; // scommenta se hai l’immagine
+import ListeMockup from "../assest/ListeMockup.png"
 
 const ShopPage = () => {
+
   const products = [
     {
-      title: "Minimal Digital Planner - Grey version",
-      price: "0.79",
-      priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // sostituisci con il tuo ID reale
-      image: DigitalGrey,
+      title: "Minimal Digital Planner ",
+      //price: "0.79",
+      //priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // sostituisci con il tuo ID reale
+      image: ListeMockup,
     },
     {
       title: "Planner Mensile",
@@ -36,6 +37,7 @@ const ShopPage = () => {
             price={product.price}
             priceId={product.priceId}
             image={product.image}
+            index={index}
           />
         ))}
       </div>
