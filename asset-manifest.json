@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/Planmanuh/static/css/main.f2ce04d3.css",
-    "main.js": "/Planmanuh/static/js/main.d7b1c432.js",
+    "main.css": "/Planmanuh/static/css/main.6ae349bc.css",
+    "main.js": "/Planmanuh/static/js/main.2a61e318.js",
     "static/js/453.7e069098.chunk.js": "/Planmanuh/static/js/453.7e069098.chunk.js",
     "static/media/SfondoLegno1.png": "/Planmanuh/static/media/SfondoLegno1.a7e4c031507a2d19bf34.png",
-    "static/media/SfondoFooter.png": "/Planmanuh/static/media/SfondoFooter.b983a4e4a261a41df721.png",
+    "static/media/AboutUsPm.png": "/Planmanuh/static/media/AboutUsPm.f237ce8437ad89f705b4.png",
+    "static/media/SfondoBodyBlu.png": "/Planmanuh/static/media/SfondoBodyBlu.f9edd1b64d24a46a2be1.png",
     "static/media/manga2.jpg": "/Planmanuh/static/media/manga2.d95539e4af2c9fe7c961.jpg",
     "static/media/DigitalBlue.png": "/Planmanuh/static/media/DigitalBlue.ce46e575b9268ca06cc2.png",
     "static/media/DigitalGreen.png": "/Planmanuh/static/media/DigitalGreen.eca7bdd95a18dbfd7926.png",
     "static/media/ListeMockup.png": "/Planmanuh/static/media/ListeMockup.bed1f2491db4fc9e8697.png",
-    "static/media/SfondoBody1.jpg": "/Planmanuh/static/media/SfondoBody1.f791f2131aa81136f23b.jpg",
     "static/media/DigitalGrey.png": "/Planmanuh/static/media/DigitalGrey.c3b5189b2c2a618a7808.png",
+    "static/media/SfondoFooter2.png": "/Planmanuh/static/media/SfondoFooter2.c865886218b9ad46623c.png",
     "index.html": "/Planmanuh/index.html",
-    "main.f2ce04d3.css.map": "/Planmanuh/static/css/main.f2ce04d3.css.map",
-    "main.d7b1c432.js.map": "/Planmanuh/static/js/main.d7b1c432.js.map",
+    "main.6ae349bc.css.map": "/Planmanuh/static/css/main.6ae349bc.css.map",
+    "main.2a61e318.js.map": "/Planmanuh/static/js/main.2a61e318.js.map",
     "453.7e069098.chunk.js.map": "/Planmanuh/static/js/453.7e069098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2ce04d3.css",
-    "static/js/main.d7b1c432.js"
+    "static/css/main.6ae349bc.css",
+    "static/js/main.2a61e318.js"
   ]
 }
