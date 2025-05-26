@@ -10,6 +10,7 @@ import "./App.css";
 import Cart from "./components/Cart";
 import CartDue from "./components/CartDue";
 import CartTre from "./components/CartTre";
+import LoadingSpinner from "./components/LoadingSpinner";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/cart-due" element={<CartDue />} />
           <Route path="/cart-tre" element={<CartTre />} />
+          <Route path="/success" element={<LoadingSpinner />}/>
         </Routes>
       </main>
       <Footer />

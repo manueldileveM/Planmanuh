@@ -26,7 +26,8 @@ app.post("/create-checkout-session", async (req, res) => {
           quantity: 1,
         },
       ],
-      success_url: "http://localhost:3000/success",
+
+      success_url: `http://localhost:3000/Planmanuh/success?priceId=${priceId}`,
       cancel_url: "http://localhost:3000/cancel",
     });
 

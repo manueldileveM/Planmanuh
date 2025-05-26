@@ -51,7 +51,6 @@ const ProductCard = ({ title, image, price, priceId , index }) => {
           Acquista
         </button>
       </Link>
-      
     </div>
   );
 };

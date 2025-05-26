@@ -7,7 +7,7 @@
 
 body {
   /*background-color: #E4CBA7;*/
-  background-image: url('./assest/SfondoBody1.jpg');
+  background-image: url('./assest/SfondoBodyBlu.png');
   background-size: 100% 98%;
   background-position: top center;
   background-repeat: no-repeat;
@@ -102,7 +102,7 @@ body {
 /* FOOTER */
 .footer {
   /*background-color: #967e48;*/
-  background-image: url('./assest/SfondoFooter.png');
+  background-image: url('./assest/SfondoFooter2.png');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -129,7 +129,7 @@ body {
 }
 
 .cta-button {
-  background-color: #00b279;         /* Verde brillante */
+  background-color: #81a5fa;         /* Verde brillante */
   color: #ffffff;                    /* Testo bianco */
   padding: 0.9rem 2.5rem;            /* Più grande della scritta */
   border: none;
@@ -144,7 +144,7 @@ body {
 }
 
 .cta-button:hover {
-  background-color: #009f6e;         /* Verde leggermente più scuro */
+  background-color: #5372b9;         /* Verde leggermente più scuro */
   transform: scale(1.05);            /* Leggero zoom al passaggio */
 }
 

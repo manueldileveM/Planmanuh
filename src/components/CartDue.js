@@ -1,13 +1,105 @@
 import React from "react";
+import DigitalGrey from "../assest/DigitalGrey.png"
+import DigitalBlue from "../assest/DigitalBlue.png"
+import DigitalGreen from "../assest/DigitalGreen.png"
+//import { image } from "framer-motion/client";
+//import { image } from "framer-motion/client";
+
+const products = [
+  {
+    title: "Minimal Digital Planner - Grey Version ",
+    price: "0.79",
+    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
+    image: DigitalGrey, // Sostituisci con il tuo priceId reale
+  },
+  {
+    title: "Minimal Digital Planner - Blue Version ",
+    price: "0.89",
+    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+    image: DigitalBlue,
+  },
+  {
+    title: "Minimal Digital Planner - Green Version",
+    price: "0.89",
+    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+    image: DigitalGreen,
+  },
+  {
+    title: "Planner Obiettivi",
+    price: "14.99",
+    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+  },
+  {
+    title: "Planner Obiettivi",
+    price: "14.99",
+    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+  },
+];
 
 const CartDue = () => {
+  const handleCheckout = async (priceId) => {
+    try {
+      const response = await fetch("http://localhost:4242/create-checkout-session", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ priceId }),
+      });
+
+      const data = await response.json();
+
+      if (data.url) {
+        window.location.href = data.url; // Redireziona a Stripe
+      } else {
+        console.error("Errore: URL di checkout mancante");
+      }
+    } catch (error) {
+      console.error("Errore durante il checkout:", error);
+    }
+  };
+
   return (
     <div style={{ padding: "2rem" }}>
-      <h1>Planner Mensile Verde</h1>
-      <p>Pagina dedicata al planner verde</p>
+      <h2>🛒 Scegli il tuo planner</h2>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem", marginTop: "1rem" }}>
+        {products.map((product) => (
+        <div
+  key={product.priceId}
+  style={{
+    border: "1px solid #ccc",
+    padding: "1rem",
+    borderRadius: "10px",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    backgroundColor: "#fff",
+  }}
+>
+  <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+    <img src={product.image} alt={product.title} style={{ width: "300px", borderRadius: "8px" }} />
+    <div>
+      <h3 style={{ marginBottom: "0.5rem" }}>{product.title}</h3>
+      <p style={{ margin: 0 }}>Prezzo: {product.price} €</p>
+    </div>
+  </div>
+  <button
+    onClick={() => handleCheckout(product.priceId)}
+    style={{
+      padding: "0.6rem 1.2rem",
+      backgroundColor: "#00aaff",
+      color: "#fff",
+      border: "none",
+      borderRadius: "6px",
+      cursor: "pointer",
+    }}
+  >
+    Procedi al pagamento
+  </button>
+</div>
+
+        ))}
+      </div>
     </div>
   );
 };
 
-export default CartDue; //FARE COPIA E INCOLLA DI CART E MODIFICARE LE SEZIONI CON I PRODOTTI DI CARTDUE
-//FARE LO STESSO CON CART TRE
+export default CartDue;
