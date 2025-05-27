@@ -8,7 +8,8 @@ const LoadingSpinner = () => {
   const downloadLinks = {
     // Associa ogni priceId reale al file PDF corrispondente
     "price_1RP7fZ09aiIAsszvC0FzVt0D": "/files/DigitalPlannerGrey.pdf",
-    //"price_1RP7fZ09aiIAsszvC0FzVt0D-blue": "/files/MinimalPlanner-Blue.pdf",
+    //"price_1RTQLs09aiIAsszvUPZYN7Q6": "/files/DigitalPlannerBlue.pdf",  --> PRICEID REALE, IN LIVE
+    "price_1RTSQ809aiIAsszvAIQNO1QH": "/files/DigitalPlannerBlue.pdf",
     //"price_1RP7fZ09aiIAsszvC0FzVt0D-green": "/files/MinimalPlanner-Green.pdf",
     // aggiungi altri se servono
   };

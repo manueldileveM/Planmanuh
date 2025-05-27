@@ -47,7 +47,7 @@ body {
 }
 
 .navbar-links a:hover {
-  background-color: rgb(81, 90, 90);
+  background-color: rgb(43, 102, 170);
   color: #eee;
   border-radius: 8px;
 }
@@ -174,7 +174,7 @@ body {
   cursor: pointer;
   border: 2px solid transparent;
    /* 👇 Aggiunta per immagine di sfondo */
-  background-image: url('./assest/SfondoLegno1.png');
+  background-image: url('./assest/SfondoLegnoBlu.png');
   background-size: 115% 115%;
   background-position: center;
   background-repeat: no-repeat;
@@ -214,12 +214,18 @@ body {
   margin: 0 0 1rem;
   font-size: 1.8rem;
   color: #333;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 .box-text p {
   margin: 0;
   font-size: 1rem;
   color: #333;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 /*PER MOBILE
