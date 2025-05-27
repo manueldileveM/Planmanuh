@@ -12,12 +12,12 @@ const products = [
     title: "Minimal Digital Planner - Grey Version ",
     price: "0.79",
     priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
-    image: DigitalGrey, // Sostituisci con il tuo priceId reale
+    image: DigitalGrey,
   },
   {
     title: "Minimal Digital Planner - Blue Version ",
     price: "0.89",
-    priceId: "price_1RTSQ809aiIAsszvAIQNO1QH", // Sostituisci con il tuo priceId reale
+    priceId: "price_1RTSQ809aiIAsszvAIQNO1QH",
     image: DigitalBlue,
   },
   {

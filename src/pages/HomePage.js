@@ -1,8 +1,8 @@
 import React from "react";
 import CallToAction from "../components/CallToAction";
 import { Link } from "react-router-dom";
-import manga2 from '../assest/manga2.jpg';
-import AboutUsPm from '../assest/AboutUsPm.png'
+import AboutUsPm from '../assest/AboutUsPm.png';
+import SfondoBox1 from '../assest/SfondoBox1.png';
 
 
 const HomePage = () => {
@@ -15,7 +15,7 @@ const HomePage = () => {
 <section className="box-section">
         <Link to="/shop" className="box">
         <div className="box-content">
-        <img src={manga2} alt="manga"/>
+        <img src={SfondoBox1} alt="SfondoBox1"/>
         <div className="box-text">
           <h3>Scopri i nostri Planner digitali!</h3>
           <p>Organizza la tua vita con stile! Scegli tra planner minimal, mensili e colorati pensati per aiutarti a pianificare al meglio ogni giorno. Perfetti per tablet e dispositivi digitali, pronti per il download immediato.</p>

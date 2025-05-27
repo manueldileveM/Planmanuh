@@ -6,12 +6,10 @@ const LoadingSpinner = () => {
   const priceId = params.get("priceId");
 
   const downloadLinks = {
-    // Associa ogni priceId reale al file PDF corrispondente
     "price_1RP7fZ09aiIAsszvC0FzVt0D": "/files/DigitalPlannerGrey.pdf",
-    //"price_1RTQLs09aiIAsszvUPZYN7Q6": "/files/DigitalPlannerBlue.pdf",  --> PRICEID REALE, IN LIVE
+    //"price_1RTQLs09aiIAsszvUPZYN7Q6": "/files/DigitalPlannerBlue.pdf",  --> PRICEID !!!REALE!!!, IN LIVE
     "price_1RTSQ809aiIAsszvAIQNO1QH": "/files/DigitalPlannerBlue.pdf",
-    //"price_1RP7fZ09aiIAsszvC0FzVt0D-green": "/files/MinimalPlanner-Green.pdf",
-    // aggiungi altri se servono
+    //"price_1RP7fZ09aiIAsszvC0FzVt0D-green": "/files/DigitalPlannerGreen.pdf",
   };
 
   const downloadUrl = downloadLinks[priceId];
