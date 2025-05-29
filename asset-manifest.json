@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Planmanuh/static/css/main.d1319080.css",
-    "main.js": "/Planmanuh/static/js/main.df8e7aad.js",
+    "main.js": "/Planmanuh/static/js/main.0487d112.js",
     "static/js/453.7e069098.chunk.js": "/Planmanuh/static/js/453.7e069098.chunk.js",
     "static/media/SfondoLegnoBlu.png": "/Planmanuh/static/media/SfondoLegnoBlu.3ebdcfae32881028dfe9.png",
     "static/media/SfondoBox1.png": "/Planmanuh/static/media/SfondoBox1.cec313362de4e14e7bba.png",
@@ -13,14 +13,18 @@
     "static/media/DigitalGreen.png": "/Planmanuh/static/media/DigitalGreen.eca7bdd95a18dbfd7926.png",
     "static/media/DigitalGrey.png": "/Planmanuh/static/media/DigitalGrey.0f2474f8f19c6d3fa6a1.png",
     "static/media/ListeMockup.png": "/Planmanuh/static/media/ListeMockup.bed1f2491db4fc9e8697.png",
+    "static/media/ListeMockupViaggi.png": "/Planmanuh/static/media/ListeMockupViaggi.9d43103afa746fe7044b.png",
+    "static/media/BudgetPlan.png": "/Planmanuh/static/media/BudgetPlan.df3a69d882ad59fa92c3.png",
+    "static/media/VacationPlan1.png": "/Planmanuh/static/media/VacationPlan1.1470efc4aa48dd09a13c.png",
+    "static/media/VacationPlan2.png": "/Planmanuh/static/media/VacationPlan2.81f4e0226870f9064d77.png",
     "static/media/SfondoFooter2.png": "/Planmanuh/static/media/SfondoFooter2.c865886218b9ad46623c.png",
     "index.html": "/Planmanuh/index.html",
     "main.d1319080.css.map": "/Planmanuh/static/css/main.d1319080.css.map",
-    "main.df8e7aad.js.map": "/Planmanuh/static/js/main.df8e7aad.js.map",
+    "main.0487d112.js.map": "/Planmanuh/static/js/main.0487d112.js.map",
     "453.7e069098.chunk.js.map": "/Planmanuh/static/js/453.7e069098.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1319080.css",
-    "static/js/main.df8e7aad.js"
+    "static/js/main.0487d112.js"
   ]
 }
