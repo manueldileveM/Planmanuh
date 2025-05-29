@@ -1,28 +1,28 @@
 import React from "react";
-import DigitalGrey from "../assest/DigitalGrey.png"
-import DigitalBlue from "../assest/DigitalBlue.png"
-import DigitalGreen from "../assest/DigitalGreen.png"
-//import { image } from "framer-motion/client";
+import VacationPlan1 from "../assest/VacationPlan1.png";
+import VacationPlan2 from "../assest/VacationPlan2.png";
+import BudgetPlan from "../assest/BudgetPlan.png";
+
 //import { image } from "framer-motion/client";
 
 const products = [
   {
-    title: "Minimal Digital Planner - Grey Version ",
-    price: "0.79",
+    title: "Vacation Planner - Minimal",
+    price: "2.45",
     priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
-    image: DigitalGrey, // Sostituisci con il tuo priceId reale
+    image: VacationPlan1, // Sostituisci con il tuo priceId reale
   },
   {
-    title: "Minimal Digital Planner - Blue Version ",
-    price: "0.89",
+    title: "Vacation Planner - Minimal",
+    price: "2.25",
     priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
-    image: DigitalBlue,
+    image: VacationPlan2,
   },
   {
-    title: "Minimal Digital Planner - Green Version",
-    price: "0.89",
+    title: "Budget Planner - Minimal",
+    price: "3.15",
     priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
-    image: DigitalGreen,
+    image: BudgetPlan,
   },
   {
     title: "Planner Obiettivi",

@@ -10,7 +10,7 @@ const AboutPage = () => {
 
       <p className="about-text">
         Ciao! Siamo <strong>Planmanuh</strong>, un piccolo progetto nato con un grande obiettivo:
-        aiutare donne freelance e content creator a organizzarsi con stile, chiarezza e creatività.
+        aiutare clienti freelance e content creator a organizzarsi con stile, chiarezza e creatività.
       </p>
 
       <p className="about-text">

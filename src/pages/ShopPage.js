@@ -1,6 +1,7 @@
 import React from "react";
 import ProductCard from "../components/ProductCard";
-import ListeMockup from "../assest/ListeMockup.png"
+import ListeMockup from "../assest/ListeMockup.png";
+import ListeMockupViaggi from "../assest/ListeMockupViaggi.png";
 
 const ShopPage = () => {
 
@@ -12,10 +13,10 @@ const ShopPage = () => {
       image: ListeMockup,
     },
     {
-      title: "Planner Mensile",
-      price: "12.99",
-      priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
-      // image: productImg,
+      title: "Plan Your Travel - Planner",
+      //price: "12.99",
+      //priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
+      image: ListeMockupViaggi,
     },
     {
       title: "Planner Mensile",
