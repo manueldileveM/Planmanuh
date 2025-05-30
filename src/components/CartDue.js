@@ -1,101 +1,105 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import VacationPlan1 from "../assest/VacationPlan1.png";
 import VacationPlan2 from "../assest/VacationPlan2.png";
 import BudgetPlan from "../assest/BudgetPlan.png";
-
-//import { image } from "framer-motion/client";
+//import { link } from "framer-motion/client";
 
 const products = [
   {
-    title: "Vacation Planner - Minimal",
+    title: "Pianificatore di vacanze - Minimo",
     price: "2.45",
     priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
-    image: VacationPlan1, // Sostituisci con il tuo priceId reale
+    image: VacationPlan1,
+    link: "/prodotto/vacanze-minimo",
   },
   {
-    title: "Vacation Planner - Minimal",
+    title: "Pianificatore di vacanze - Minimo",
     price: "2.25",
-    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
     image: VacationPlan2,
+    link: "/prodotto/vacanze-minimal",
   },
   {
-    title: "Budget Planner - Minimal",
+    title: "Budget Planner - Minimo",
     price: "3.15",
-    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
     image: BudgetPlan,
+    link: "/prodotto/vacanze-budget",
   },
   {
     title: "Planner Obiettivi",
     price: "14.99",
-    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
   },
   {
     title: "Planner Obiettivi",
     price: "14.99",
-    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
   },
 ];
 
 const CartDue = () => {
-  const handleCheckout = async (priceId) => {
-    try {
-      const response = await fetch("http://localhost:4242/create-checkout-session", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ priceId }),
-      });
-
-      const data = await response.json();
-
-      if (data.url) {
-        window.location.href = data.url; // Redireziona a Stripe
-      } else {
-        console.error("Errore: URL di checkout mancante");
-      }
-    } catch (error) {
-      console.error("Errore durante il checkout:", error);
-    }
-  };
-
   return (
     <div style={{ padding: "2rem" }}>
       <h2>🛒 Scegli il tuo planner</h2>
       <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem", marginTop: "1rem" }}>
-        {products.map((product) => (
-        <div
-  key={product.priceId}
-  style={{
-    border: "1px solid #ccc",
-    padding: "1rem",
-    borderRadius: "10px",
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    backgroundColor: "#fff",
-  }}
->
-  <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-    <img src={product.image} alt={product.title} style={{ width: "300px", borderRadius: "8px" }} />
-    <div>
-      <h3 style={{ marginBottom: "0.5rem" }}>{product.title}</h3>
-      <p style={{ margin: 0 }}>Prezzo: {product.price} €</p>
-    </div>
-  </div>
-  <button
-    onClick={() => handleCheckout(product.priceId)}
-    style={{
-      padding: "0.6rem 1.2rem",
-      backgroundColor: "#00aaff",
-      color: "#fff",
-      border: "none",
-      borderRadius: "6px",
-      cursor: "pointer",
-    }}
-  >
-    Procedi al pagamento
-  </button>
-</div>
-
+        {products.map((product, index) => (
+          <div
+            key={index}
+            style={{
+              border: "1px solid #ccc",
+              padding: "1rem",
+              borderRadius: "10px",
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              backgroundColor: "#fff",
+            }}
+          >
+            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+              {product.image && (
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  style={{ width: "300px", borderRadius: "8px" }}
+                />
+              )}
+              <div>
+                <h3 style={{ marginBottom: "0.5rem" }}>{product.title}</h3>
+                <p style={{ margin: 0 }}>Prezzo: {product.price} €</p>
+              </div>
+            </div>
+            {product.link ? (
+              <Link
+                to={product.link}
+                style={{
+                  padding: "0.6rem 1.2rem",
+                  backgroundColor: "#00aaff",
+                  color: "#fff",
+                  border: "none",
+                  borderRadius: "6px",
+                  textDecoration: "none",
+                }}
+              >
+                Visualizza
+              </Link>
+            ) : (
+              <button
+                disabled
+                style={{
+                  padding: "0.6rem 1.2rem",
+                  backgroundColor: "#ccc",
+                  color: "#fff",
+                  border: "none",
+                  borderRadius: "6px",
+                  cursor: "not-allowed",
+                }}
+              >
+                Non disponibile
+              </button>
+            )}
+          </div>
         ))}
       </div>
     </div>
