@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Planmanuh/static/css/main.d1319080.css",
-    "main.js": "/Planmanuh/static/js/main.cbd66646.js",
+    "main.js": "/Planmanuh/static/js/main.26ff651d.js",
     "static/js/453.7e069098.chunk.js": "/Planmanuh/static/js/453.7e069098.chunk.js",
     "static/media/SfondoLegnoBlu.png": "/Planmanuh/static/media/SfondoLegnoBlu.3ebdcfae32881028dfe9.png",
     "static/media/SfondoBox1.png": "/Planmanuh/static/media/SfondoBox1.cec313362de4e14e7bba.png",
@@ -14,35 +14,41 @@
     "static/media/DigitalGrey.png": "/Planmanuh/static/media/DigitalGrey.0f2474f8f19c6d3fa6a1.png",
     "static/media/ListeMockup.png": "/Planmanuh/static/media/ListeMockup.bed1f2491db4fc9e8697.png",
     "static/media/MockupDPlannerPink.png": "/Planmanuh/static/media/MockupDPlannerPink.e888362b16d44edd5751.png",
+    "static/media/MockupDPlannerGold.png": "/Planmanuh/static/media/MockupDPlannerGold.147f67c4e1bd83b6b4b6.png",
     "static/media/MockupDPlannerGreen.png": "/Planmanuh/static/media/MockupDPlannerGreen.3085c5830ccba0420d6f.png",
     "static/media/MockupDPlannerBlue.png": "/Planmanuh/static/media/MockupDPlannerBlue.bc9b172ba669a0184529.png",
     "static/media/MockupDPlanner.png": "/Planmanuh/static/media/MockupDPlanner.dcc9cf3eda18af1f3281.png",
     "static/media/MockupDPlannerBlue2.png": "/Planmanuh/static/media/MockupDPlannerBlue2.6a954b458fcd6976c182.png",
+    "static/media/MockupDPlannerGold2.png": "/Planmanuh/static/media/MockupDPlannerGold2.bda98b19b6caf5f89531.png",
     "static/media/MockupDPlannerGreen2.png": "/Planmanuh/static/media/MockupDPlannerGreen2.f123627ca97c137a2e03.png",
     "static/media/MockupDPlannerPink2.png": "/Planmanuh/static/media/MockupDPlannerPink2.2e54784a0b980d598acc.png",
     "static/media/ListeMockupViaggi.png": "/Planmanuh/static/media/ListeMockupViaggi.9d43103afa746fe7044b.png",
     "static/media/MockupDPlanner2.png": "/Planmanuh/static/media/MockupDPlanner2.c3cc97e28fb6e0f780e1.png",
     "static/media/MockupBudget.png": "/Planmanuh/static/media/MockupBudget.428609d11715814cf19d.png",
+    "static/media/MockupDPlannerGold1.png": "/Planmanuh/static/media/MockupDPlannerGold1.f83072675bd5e981a94b.png",
     "static/media/MockupDPlannerPink1.png": "/Planmanuh/static/media/MockupDPlannerPink1.04e3173250193f901f3e.png",
     "static/media/MockupDPlannerGreen1.png": "/Planmanuh/static/media/MockupDPlannerGreen1.1ceace4e7f8ee813c0a8.png",
     "static/media/MockupDPlannerBlue1.png": "/Planmanuh/static/media/MockupDPlannerBlue1.d2bfd85f87f81549eeeb.png",
     "static/media/Mockup1Vacation.png": "/Planmanuh/static/media/Mockup1Vacation.b77c4918735e97dd6e02.png",
     "static/media/MockupDPlanner1.png": "/Planmanuh/static/media/MockupDPlanner1.56296188c302fd68075a.png",
+    "static/media/MockupVacation.png": "/Planmanuh/static/media/MockupVacation.1970492859375156cfe3.png",
     "static/media/Mockup1Vacation2.png": "/Planmanuh/static/media/Mockup1Vacation2.db8170f1167795daeb8b.png",
+    "static/media/MockupVacation2.png": "/Planmanuh/static/media/MockupVacation2.f8d58bdac80d08a9eb40.png",
     "static/media/MockupBudget2.png": "/Planmanuh/static/media/MockupBudget2.ff1898fd33726fc305e1.png",
     "static/media/BudgetPlan.png": "/Planmanuh/static/media/BudgetPlan.df3a69d882ad59fa92c3.png",
     "static/media/VacationPlan1.png": "/Planmanuh/static/media/VacationPlan1.1470efc4aa48dd09a13c.png",
     "static/media/MockupBudget1.png": "/Planmanuh/static/media/MockupBudget1.713f985bb8b7fa4ec124.png",
     "static/media/Mockup1Vacation1.png": "/Planmanuh/static/media/Mockup1Vacation1.50357d9f32340e418c58.png",
     "static/media/VacationPlan2.png": "/Planmanuh/static/media/VacationPlan2.81f4e0226870f9064d77.png",
+    "static/media/MockupVacation1.png": "/Planmanuh/static/media/MockupVacation1.7fd86247cda3e0ad78f5.png",
     "static/media/SfondoFooter2.png": "/Planmanuh/static/media/SfondoFooter2.c865886218b9ad46623c.png",
     "index.html": "/Planmanuh/index.html",
     "main.d1319080.css.map": "/Planmanuh/static/css/main.d1319080.css.map",
-    "main.cbd66646.js.map": "/Planmanuh/static/js/main.cbd66646.js.map",
+    "main.26ff651d.js.map": "/Planmanuh/static/js/main.26ff651d.js.map",
     "453.7e069098.chunk.js.map": "/Planmanuh/static/js/453.7e069098.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1319080.css",
-    "static/js/main.cbd66646.js"
+    "static/js/main.26ff651d.js"
   ]
 }
