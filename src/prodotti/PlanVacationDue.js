@@ -1,5 +1,8 @@
 import React from "react";
-import VacationPlan2 from "../assest/VacationPlan2.png";
+import MockupVacation from "../fotoprodotti/MockupVacation.png";
+import MockupVacation1 from "../fotoprodotti/MockupVacation1.png";
+import MockupVacation2 from "../fotoprodotti/MockupVacation2.png";
+
 
 const PlanVacationDue = () => {
   const handleCheckout = async () => {
@@ -28,9 +31,19 @@ const PlanVacationDue = () => {
     <div style={{ padding: "2rem", textAlign: "center" }}>
       <h2>Pianificatore di vacanze - Minimo</h2>
       <img
-        src={VacationPlan2}
+        src={MockupVacation}
         alt="Planner Vacanze"
-        style={{ width: "400px", borderRadius: "10px", marginBottom: "1rem" }}
+        style={{ width: "400px", marginBottom: "1rem", borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px" }}
+      />
+      <img
+        src={MockupVacation1}
+        alt="Planner Vacanze"
+        style={{ width: "400px", marginBottom: "1rem" }}
+      />
+      <img
+        src={MockupVacation2}
+        alt="Planner Vacanze"
+        style={{ width: "400px", marginBottom: "1rem" , borderTopRightRadius: "10px", borderBottomRightRadius: "10px" }}
       />
       <p style={{ fontSize: "1.2rem", fontWeight: "bold" }}>Prezzo: 2.45 €</p>
       <button

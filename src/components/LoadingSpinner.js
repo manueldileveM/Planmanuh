@@ -9,7 +9,8 @@ const LoadingSpinner = () => {
     "price_1RP7fZ09aiIAsszvC0FzVt0D": "/files/DigitalPlannerGrey.pdf",
     //"price_1RTQLs09aiIAsszvUPZYN7Q6": "/files/DigitalPlannerBlue.pdf",  --> PRICEID !!!REALE!!!, IN LIVE
     "price_1RTSQ809aiIAsszvAIQNO1QH": "/files/DigitalPlannerBlue.pdf",
-    //"price_1RP7fZ09aiIAsszvC0FzVt0D-green": "/files/DigitalPlannerGreen.pdf",
+    "price_1RUoPm09aiIAsszvLpGf04mB": "/files/DigitalPlannerGreen.pdf",
+    "price_1RUoVd09aiIAsszvab22a6Sn": "/files/DigitalPlannerPink.pdf",
   };
 
   const downloadUrl = downloadLinks[priceId];

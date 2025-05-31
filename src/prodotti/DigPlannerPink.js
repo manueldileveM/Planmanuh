@@ -10,7 +10,7 @@ const DigPlannerPink = () => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D",
+          priceId: "price_1RUoVd09aiIAsszvab22a6Sn",
         }),
       });
 

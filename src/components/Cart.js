@@ -27,14 +27,14 @@ const products = [
   {
     title: "Minimal Digital Planner - Green Version",
     price: "0.89",
-    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+    priceId: "price_1RUoPm09aiIAsszvLpGf04mB", // Sostituisci con il tuo priceId reale
     image: DigitalGreen,
     link: "/prodotto/digitalplanner-green",
   },
   {
     title: "Minimal Digital Planner - Pink Version",
     price: "0.89",
-    priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
+    priceId: "price_1RUoVd09aiIAsszvab22a6Sn", // Sostituisci con il tuo priceId reale
     image: DigitalPink,
     link: "/prodotto/digitalplanner-pink",
   },
@@ -43,6 +43,7 @@ const products = [
     price: "0.89",
     priceId: "price_1RP7fZ09aiIAsszvC0FzVt0D", // Sostituisci con il tuo priceId reale
     image: DigitalGold,
+    link: "/prodotto/digitalplanner-gold",
   },
 ];
 
