@@ -115,3 +115,50 @@ const Cart = () => {
 };
 
 export default Cart;
+
+
+const responsiveStyles = `
+@media (max-width: 768px) {
+  /* Contenitore principale */
+  div[style*="padding: 2rem"] {
+    padding: 1rem !important;
+  }
+
+  /* Ogni card prodotto */
+  div[style*="display: flex"][style*="justify-content: space-between"] {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    text-align: center;
+  }
+
+  /* Contenitore immagine + testo */
+  div[style*="display: flex"][style*="align-items: center"] {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 0.5rem !important;
+  }
+
+  /* Immagini prodotti */
+  img[style*="width: 300px"],
+  img[style*="width: 400px"] {
+    width: 100% !important;
+    max-width: 90vw !important;
+    height: auto !important;
+  }
+
+  /* Pulsanti */
+  a[style*="padding: 0.6rem"],
+  button[style*="padding: 0.6rem"] {
+    width: 100% !important;
+    font-size: 1rem !important;
+    padding: 0.8rem !important;
+    margin-top: 0.5rem !important;
+  }
+}
+`;
+
+const styleTag = document.createElement("style");
+styleTag.innerHTML = responsiveStyles;
+document.head.appendChild(styleTag);

@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  /* Per i contenitori principali */
+  div[style*="padding: 2rem"] {
+    padding: 1rem !important;
+  }
+
+  /* Per le card dei prodotti (Cart e CartDue) */
+  div[style*="display: flex"][style*="justify-content: space-between"] {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  /* Wrapper immagine + descrizione */
+  div[style*="display: flex"][style*="align-items: center"] {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  /* Immagini dei prodotti */
+  img[style*="width: 300px"] {
+    width: 100% !important;
+    max-width: 250px !important;
+    height: auto !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* Pulsanti Visualizza o Non disponibile */
+  a[style*="padding: 0.6rem"], button[style*="padding: 0.6rem"] {
+    width: 100% !important;
+    font-size: 1rem !important;
+    margin-top: 1rem !important;
+  }
+
+  /* Immagini DigPlannerGreen */
+  img[style*="width: 400px"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Pulsante checkout in DigPlannerGreen */
+  button[style*="background-color: #00aaff"] {
+    width: 100% !important;
+    font-size: 1.1rem !important;
+    padding: 1rem !important;
+  }
+}

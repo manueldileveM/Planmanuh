@@ -19,6 +19,7 @@ import DigPlannerBlue from "./prodotti/DigPlannerBlue";
 import DigPlannerGreen from "./prodotti/DigPlannerGreen";
 import DigPlannerPink from "./prodotti/DigPlannerPink";
 import DigPlannerGold from "./prodotti/DigPlannerGold";
+import Factory from "./pages/Factory";
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
           <Route path="/prodotto/digitalplanner-green" element={<DigPlannerGreen />} />
           <Route path="/prodotto/digitalplanner-pink" element={<DigPlannerPink />} />
           <Route path="/prodotto/digitalplanner-gold" element={<DigPlannerGold />} />
+          <Route path="/factory" element={<Factory />} />
         </Routes>
       </main>
       <Footer />

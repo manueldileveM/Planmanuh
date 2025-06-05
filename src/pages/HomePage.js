@@ -3,6 +3,7 @@ import CallToAction from "../components/CallToAction";
 import { Link } from "react-router-dom";
 import AboutUsPm from '../assest/AboutUsPm.png';
 import SfondoBox1 from '../assest/SfondoBox1.png';
+import FactoryBox from '../assest/FactoryBox.png';
 
 
 const HomePage = () => {
@@ -23,7 +24,15 @@ const HomePage = () => {
         </div>
         </Link>
 
-        <div className="box">Secondo box</div>
+        <Link to="/factory" className="box">
+        <div className="box-content">
+        <img src={FactoryBox} alt="FactoryBox"/>
+        <div className="box-text">
+          <h3>Crea qualcosa di unico per te!</h3>
+          <p>Hai un’idea in mente? Che sia un planner speciale, un logo personalizzato o un’immagine creativa, raccontacelo! I nostri esperti realizzano prodotti digitali su misura per ogni occasione.</p>
+        </div>
+        </div>
+        </Link>
 
           <Link to="/about" className="box">
         <div className="box-content">
